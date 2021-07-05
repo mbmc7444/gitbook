@@ -22,6 +22,7 @@
     * [배열과 반복문의 활용](undefined/web2-javascript/undefined-4/undefined-6.md)
     * [함수](undefined/web2-javascript/undefined-4/undefined-7.md)
     * [함수의 활용](undefined/web2-javascript/undefined-4/undefined-8.md)
+    * [객체](undefined/web2-javascript/undefined-4/undefined.md)
     * [객체의 활용](undefined/web2-javascript/undefined-4/undefined-9.md)
   * [파일로 쪼개서 정리정돈](undefined/web2-javascript/undefined-5.md)
   * [라이브러리와 프래임워크](undefined/web2-javascript/undefined-6.md)
