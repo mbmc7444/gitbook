@@ -27,5 +27,12 @@
   * [파일로 쪼개서 정리정돈](undefined/web2-javascript/undefined-5.md)
   * [라이브러리와 프래임워크](undefined/web2-javascript/undefined-6.md)
   * [UI vs API](undefined/web2-javascript/ui-vs-api.md)
-* [Javascript](undefined/javascript.md)
+* [Javascript](undefined/javascript/README.md)
+  * [Javascript 란 무엇인가](undefined/javascript/javascript.md)
+  * [숫자와 문자](undefined/javascript/undefined.md)
+  * [변수](undefined/javascript/undefined-1.md)
+  * [주석](undefined/javascript/undefined-2.md)
+  * [줄바꿈 과 여백](undefined/javascript/undefined-3.md)
+  * [비교연산자](undefined/javascript/undefined-4.md)
+  * [조건문](undefined/javascript/undefined-5.md)
 
