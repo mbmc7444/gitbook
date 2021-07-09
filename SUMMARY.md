@@ -54,4 +54,6 @@
   * [reverse\(\)](undefined-1/array-method/reverse.md)
   * [sort\(\)](undefined-1/array-method/sort.md)
   * [splice\(\)](undefined-1/array-method/splice.md)
+  * [concat\(\)](undefined-1/array-method/concat.md)
+  * [indexOf\(\)](undefined-1/array-method/indexof.md)
 

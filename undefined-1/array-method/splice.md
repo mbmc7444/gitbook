@@ -9,8 +9,6 @@ splice\(start\[, deleteCount\[, item1\[, item2\[, ...\]\]\]\]\)
 * item :무엇을 추가할지
 
 ```text
-
-
 const arr = [1,2,3,4,5];
 
 let spliceArr = arr.splice(0,2,"추가") 
