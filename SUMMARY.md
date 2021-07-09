@@ -53,7 +53,10 @@
   * [unshift\(\)](undefined-1/array-method/unshift.md)
   * [reverse\(\)](undefined-1/array-method/reverse.md)
   * [sort\(\)](undefined-1/array-method/sort.md)
+  * [slice\(\)](undefined-1/array-method/slice.md)
   * [splice\(\)](undefined-1/array-method/splice.md)
   * [concat\(\)](undefined-1/array-method/concat.md)
   * [indexOf\(\)](undefined-1/array-method/indexof.md)
+  * [join\(\)](undefined-1/array-method/join.md)
+  * [reduce\(\)](undefined-1/array-method/reduce.md)
 
