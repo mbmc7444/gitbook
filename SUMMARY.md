@@ -44,3 +44,14 @@
     * [UI와 API 그리고 문서보는 법](undefined/javascript/javascript/ui-api.md)
     * [정규표현식](undefined/javascript/javascript/undefined-10.md)
 
+## 공부하기! <a id="undefined-1"></a>
+
+* [array - method](undefined-1/array-method/README.md)
+  * [push\(\)](undefined-1/array-method/push.md)
+  * [pop\(\)](undefined-1/array-method/pop.md)
+  * [shift\(\)](undefined-1/array-method/shift.md)
+  * [unshift\(\)](undefined-1/array-method/unshift.md)
+  * [reverse\(\)](undefined-1/array-method/reverse.md)
+  * [sort\(\)](undefined-1/array-method/sort.md)
+  * [splice\(\)](undefined-1/array-method/splice.md)
+
