@@ -59,4 +59,5 @@
   * [indexOf\(\)](undefined-1/array-method/indexof.md)
   * [join\(\)](undefined-1/array-method/join.md)
   * [reduce\(\)](undefined-1/array-method/reduce.md)
+  * [map\(\)](undefined-1/array-method/map.md)
 
