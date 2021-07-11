@@ -67,4 +67,5 @@
   * [Javascript란 무엇인가?](nomad-coders/javascript/javascript.md)
   * [Variable\(변수\)](nomad-coders/javascript/variable.md)
   * [Data Types](nomad-coders/javascript/data-types.md)
+  * [Organizing Data with Arrays](nomad-coders/javascript/organizing-data-with-arrays.md)
 
