@@ -2,7 +2,7 @@
 
 ### 변수 \(Variable\) :변하는것이 가능한 어떤 값을 저장하고싶을때 사용한다.
 
-```text
+```javascript
 var //변수를 선언하는방법
 var a = 1;
 var a = 10;

@@ -2,7 +2,7 @@
 
 ### 대입연산자\(=\)
 
-```text
+```javascript
 a = 1 ;
 /*
 a 는변수
@@ -13,7 +13,7 @@ a 는변수
 
 ### 동등연산자\(==\)
 
-```text
+```javascript
 alert(1==2)             //false
 alert(1==1)             //true
 alert("one"=="two")     //false 
@@ -22,7 +22,7 @@ alert("one"=="one")     //true
 
 #### 일치연산자\(===\)
 
-```text
+```javascript
 alert(1=='1');              //true
 alert(1==='1');             //false
 ```
@@ -37,7 +37,7 @@ alert(1==='1');             //false
 
 #### 심화
 
-```text
+```javascript
 alert(null == undefined);       //true
 alert(null === undefined);      //false
 alert(true == 1);               //true

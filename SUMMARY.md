@@ -48,11 +48,10 @@
 ## 노마드 코더 자바스크립트 <a id="nomad-coders"></a>
 
 * [자바스크립트 기본](nomad-coders/undefined-3/README.md)
-  * [Javascript](nomad-coders/undefined-3/javascript/README.md)
-    * [Javascript란 무엇인가?](nomad-coders/undefined-3/javascript/javascript.md)
-    * [Variable\(변수\)](nomad-coders/undefined-3/javascript/variable.md)
-    * [Data Types](nomad-coders/undefined-3/javascript/data-types.md)
-    * [Organizing Data with Arrays](nomad-coders/undefined-3/javascript/organizing-data-with-arrays.md)
+  * [Javascript란 무엇인가?](nomad-coders/undefined-3/javascript-1.md)
+  * [Variable\(변수\)](nomad-coders/undefined-3/variable.md)
+  * [Data Types](nomad-coders/undefined-3/data-types.md)
+  * [Organizing Data with Arrays](nomad-coders/undefined-3/organizing-data-with-arrays.md)
 
 ## 드림코딩 자바스크립트 <a id="undefined-2"></a>
 
