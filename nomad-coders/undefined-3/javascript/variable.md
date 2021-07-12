@@ -2,13 +2,13 @@
 
 ### let , const , var
 
-```text
+```javascript
 let a = 221;
 ley b =  a-5 
 console.log(b) // 216
 ```
 
-```text
+```javascript
 let a = 221;
 let b =  a-5 
 a = 5
@@ -19,7 +19,7 @@ console.log(b,a) // 216 5
 
 let 과 const는 재선언이 불가하다
 
-```text
+```javascript
 let a = 5;
 let a = 3; // x
 
@@ -29,7 +29,7 @@ const b = 2; // x
 
 let 재할당 가능 , const 재할당 불가
 
-```text
+```javascript
 let a = 5;
 a = 4; // o
 
@@ -39,7 +39,7 @@ b =3; //x
 
 #### var를 사용 하지말아야 하는 이유
 
-```text
+```javascript
 console.log(age);
 age = 4;
 var age;
