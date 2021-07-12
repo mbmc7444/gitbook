@@ -52,6 +52,8 @@
   * [Variable\(변수\)](nomad-coders/undefined-3/variable.md)
   * [Data Types](nomad-coders/undefined-3/data-types.md)
   * [Organizing Data with Arrays](nomad-coders/undefined-3/organizing-data-with-arrays.md)
+  * [Object](nomad-coders/undefined-3/object.md)
+  * [Functions part One](nomad-coders/undefined-3/functions-part-one.md)
 
 ## 드림코딩 자바스크립트 <a id="undefined-2"></a>
 
