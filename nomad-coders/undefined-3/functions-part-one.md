@@ -120,3 +120,7 @@ const divideResult = calculator.divide(timesResult, plusResult); //-10
 const powerResult = calculator.power(divideResult , minusResult); // -0.000009999999999999999
 ```
 
+{% hint style="info" %}
+함수에서 return 을 만나면 값을 출력하고 함수를 종료한다.
+{% endhint %}
+
