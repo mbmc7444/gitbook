@@ -1,18 +1,18 @@
 # Organizing Data with Arrays
 
-```text
+```javascript
 const monday ="Mon"
 const tue = "Tue"
 const wed = "Wed"
 const thu = "Thu"
 const fri = "Fri"
 const sat = "Sat"
-const sun = Sun"
+const sun = "Sun"
 
 console.log(monday,tue,wed,thu,fri,sat,sun) // 비효울적인 코드 
 ```
 
-```text
+```javascript
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 console.log(daysOfWeek); // [ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun' ]
 console.log(daysOfWeek[3]);  // Thu
