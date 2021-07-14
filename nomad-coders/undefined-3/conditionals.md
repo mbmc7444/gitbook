@@ -13,7 +13,7 @@ console.log(typeof age) // 해당 type을 알려준다 (Number, String ...)
 
 #### parseInt\(\)
 
-string을 Number로 바꿔준다.
+String을 Number로 바꿔준다.
 
 ```javascript
 parseInt("15") // 15 
