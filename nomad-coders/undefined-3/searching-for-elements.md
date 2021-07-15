@@ -58,3 +58,7 @@ console.log(titleAll) // NodeList(3) [h1,h1,h1] //복수의 element를 array로 
 querySelector 로 element를 불러올경우 태그 자체로 불러와 지기때문에 모든 Object를 보고싶다면 console.dir\(".hello h1"\) 를하면 된다
 {% endhint %}
 
+```javascript
+title.style.color ="blue" // 타이틀의 글자색 바꿀 수있다
+```
+
