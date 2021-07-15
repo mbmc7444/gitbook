@@ -31,10 +31,26 @@ document 안에 존재하는 함수로 document 안에 존재하는 해당 class
 
 #### querySelector , querySelectorAll
 
-document 안에 존재하는 함수로 document 안에 존재하는 해당 element를 css형태로 불러올 수 있다.
+document 안에 존재하는 함수로 document 안에 존재하는 해당 element를 css형태로 불러올 수 있다
+
+```markup
+<div class="hello">
+    <h1>안녕하세요1</h1>
+</div>
+<div class="hello">
+    <h1>안녕하세요2</h1>
+</div>
+<div class="hello">
+    <h1>안녕하세요3</h1>
+</div>
+
+```
 
 ```javascript
-<div class="hello">
-    <h1>
+const title = document.querySelector(".hello h1");
+console.log(title) // <h1>안녕하세요1</h1>
+
+const titleAll = document.querySelector(".hello h1");
+console.log(titleAll) // NodeList(3) [h1,h1,h1] //복수의 element를 array로 불러온
 ```
 
