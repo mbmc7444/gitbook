@@ -1,4 +1,4 @@
-# Functions part One
+# Functions
 
 #### 반복해서 사용해야할 코드 조각 
 
