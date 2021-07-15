@@ -86,3 +86,13 @@ if(isNaN(age) || age < 0){
 * && \(and\) : 둘다 참일때,  참이된다.
 * \|\|\(or\): 둘 중에 하나만 참이여도 참이된다
 
+```javascript
+if((a && b) || (c && d) || (x || y){
+/* 
+a && b true
+c && d false
+x || y false
+if(true) || (false) || (false) === true
+*/
+```
+
