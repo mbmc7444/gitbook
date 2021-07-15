@@ -17,5 +17,56 @@ function handleTitleClick(){
 h1.addEventListener("click", handleTitleClick);
 ```
 
+위의 코드 처럼 작성해도 무관하지만 css는 css 파일로 분리해서 관리 하는것이 좋다.
 
+```css
+/* css */
+.clicked{
+    color:tomato;
+}
+.sexy-font{
+ font-family: 'Noto Sans KR', sans-serif;
+}
+```
+
+```javascript
+/* js */
+const h1 = document.querySelector("div.hello:fist-child h1")
+
+function handleTitleClick(){
+    const clickedClass = "clicked sexy-font" 
+    // className 직업 작성하면 여러곳에서 오타가 발생할수도있고 위험하다.
+    if(h1.className === clickedClass){
+        h1.className = "";
+    }else{
+        h1.className = clickedClass ;
+    }
+}
+h1.addEventListener("click", handleTitleClick);
+
+//같은 결과라도 간결한 코드가 작성된다. 
+```
+
+#### 코드 개선
+
+className 자체를 교체하는건 심각한 오류가 생길수 도 있다.
+
+classList.contains\(\) 
+
+* class 안에 존재 유무를 판단하고
+* 해당 class를 교체\(삭\)하지않 추가 할수있다.
+
+```javascript
+const h1 = document.querySelector("div.hello:fist-child h1")
+
+function handleTitleClick(){
+    const clickedClass = "clicked";
+    if(h1.classList.contains(clickedClass){
+        h1.classList.remove(clickedClass)
+    }else{
+        h1.classList.add(clickedClass)
+    }
+}
+h1.addEventListener("click", handleTitleClick);
+```
 
