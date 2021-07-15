@@ -52,3 +52,37 @@ if(isNaN(age)){
 }
 ```
 
+#### else if 
+
+조건 안에 또다른 조건 생성
+
+```javascript
+if(conditionals){
+    // conditionals === true
+} else if(elseConditionals){
+    // conditionals === false
+    // elseConditionals === true
+}
+  else{
+    // conditionals ===false
+    // elseConditionals === false
+}
+```
+
+```javascript
+if(isNaN(age) || age < 0){
+    console.log("Please write a real positive number")
+}    else if(age < 18){
+    console.log("You are too young.")
+}    else if(age>=18 && age <=50){
+    console.log("You can drink.")    
+}    else if(age >50 && age <=80){
+    console.log("You should exercise")
+}    else if(age < 80){
+    console.log("You can do whatever you want.")
+}
+```
+
+* && \(and\) : 둘다 참일때,  참이된다.
+* \|\|\(or\): 둘 중에 하나만 참이여도 참이된다
+
