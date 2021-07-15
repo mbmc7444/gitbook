@@ -54,7 +54,7 @@ className 자체를 교체하는건 심각한 오류가 생길수 도 있다.
 classList.contains\(\) 
 
 * class 안에 존재 유무를 판단하고
-* 해당 class를 교체\(삭\)하지않 추가 할수있다.
+* 해당 class를 교체 \(삭제\) 하지않고 추가 한다.
 
 ```javascript
 const h1 = document.querySelector("div.hello:fist-child h1")
@@ -66,6 +66,21 @@ function handleTitleClick(){
     }else{
         h1.classList.add(clickedClass)
     }
+}
+h1.addEventListener("click", handleTitleClick);
+```
+
+toogle\(\)
+
+* class 안에 존재 유무를 판단하고
+* 해당 class를 교체 \(삭제\) 하지않고 추가 한다.
+* if문을 대신 해준다.
+
+```javascript
+const h1 = document.querySelector("div.hello:fist-child h1")
+
+function handleTitleClick(){
+    h1.classList.toggle("clicked") // if문과 유사
 }
 h1.addEventListener("click", handleTitleClick);
 ```
