@@ -11,5 +11,7 @@ document.location
 document.body 
 ```
 
+#### getElementById
 
+document 
 
