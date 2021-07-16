@@ -78,6 +78,7 @@
   * [background 구현](nomad-coders/undefined-3/background.md)
   * [quotes 구현](nomad-coders/undefined-3/quotes.md)
   * [todo 구현](nomad-coders/undefined-3/todo.md)
+  * [weather 구현](nomad-coders/undefined-3/weather.md)
 
 ## 드림코딩 자바스크립트 <a id="undefined-2"></a>
 

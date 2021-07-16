@@ -44,17 +44,21 @@ const TODOS_KEY = "todos"
 
 
 let toDos = [];
-// localStorage 배열로 저장 되지 않는다.
+// localStorage 배열x
+// JSAN.stringify() 객체는 배열이든 어떠한 javascript 코드건 string으로 만들어준다
+// JSAN.parse() string array 로 만들어좀
 
 function saveToDos(){
-    localStorage.setItem("todos", JSOAN.stingify(toDos))
+    localStorage.setItem("todos", JSON.stringify(toDos))
 }
 function deleteToDo(event){
   //어떤 버튼을 눌러서 삭제하는지 모르기때문에 console.dir(event.target.parentElement) 를하면각각의 타겟을 찾을수있다. 
-    const deleteLi = event.target.parntElement;
+    const deleteLi = event.target.parentElement;
     deleteLi.remove();
-    toDos = toDos.filter(todo => toDo.id !== parseInt(deleteLi.id))
-    //deleteLi.id  string 이기때문에 number 로 바꿔줘야한다
+    const sexyFilter = (arg) => {
+        return toDos.filter((todo) => todo.id !== parseInt(arg.id));
+    };
+        //deleteLi.id  string 이기때문에 number 로 바꿔줘야한다
 }
 
 
@@ -74,9 +78,8 @@ function paintToDo(newTodo){
 
 function handleToDoSubmit(event){
 event.preventDefault();
-const newTodo  = toDoInput.value; 
-toDoInput.value = ""; 
-//시작지점이 다르기때문에 input value 를 없앴다고 해도 newTodo 값이 바뀌지않는다
+const newTodo  = toDoInput.value; // 
+toDoInput.value = ""; //시작지점이 다르기때문에 input value 를 없앴다고 해도 newTodo 값이 바뀌지않는다
 const newTodoObj = {
     text: newTodo,
     id:Date.now()
@@ -90,19 +93,15 @@ saveToDos();
 toDoForm.addEventListener("submit", handleToDoSubmit)
 
 
+const savedToDos =  localStorage.getItem(TODOS_KEY)
 
-const savedToDo =  localStorage.getItem(TODOS_KEY)
-
-if(saveToDos !== null){ //null 이 아닐때
-    const parseToDos = JSON.parse(saveToDos); 
+if(savedToDos !== null){ //null 이 아닐때
+    const parseToDos = JSON.parse(savedToDos); 
+    //javascript 는 array의 각각의 item 에대해 function 을 실행시켜준다 .
     toDos = parseToDos;
     parseToDos.forEach(paintToDo);
-    /*
-    이미 paintToDo에서 모든걸 만들고 추가하기때문에 
-    각각을 JSON.parse(saveToDos)해주면 된다.
-    
-    */
 }
+ 
 
 
 ```
