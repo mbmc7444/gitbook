@@ -9,6 +9,19 @@ JSON
 
 array안 item 들에게 반복문을 실행할때 사용
 
+#### filter
+
+주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환
+
+```javascript
+const arr = [1,2,3,4,5]
+const sexyFilter(item){return item !==3}
+const newArr = arr.filter(sexyFilter);
+// true 된것만 통과 3이 아닌것만 리턴한다
+// arr = 1,2,3,4,5  newArr = 1,2,4,5 
+
+```
+
 ```javascript
 array.forEach(sayHello)
   function sayHello(item){
@@ -40,13 +53,16 @@ function deleteToDo(event){
   //어떤 버튼을 눌러서 삭제하는지 모르기때문에 console.dir(event.target.parentElement) 를하면각각의 타겟을 찾을수있다. 
     const deleteLi = event.target.parntElement;
     deleteLi.remove();
+    toDos = toDos.filter(todo => toDo.id !== parseInt(deleteLi.id))
+    //deleteLi.id  string 이기때문에 number 로 바꿔줘야한다
 }
 
 
 function paintToDo(newTodo){
     const li = document.createElement("li")
+    li.id = newTodo.id
     const span = document.createElement("span")
-    span.innterText = newTodo;
+    span.innterText = newTodo.text;
     const button = document.createElement("button")
     button.innerText ="X"
     button.addEventListener("click", deleteToDo)
@@ -61,8 +77,13 @@ event.preventDefault();
 const newTodo  = toDoInput.value; 
 toDoInput.value = ""; 
 //시작지점이 다르기때문에 input value 를 없앴다고 해도 newTodo 값이 바뀌지않는다
-toDos.push(newTodo);
-paintToDo(newTodo);
+const newTodoObj = {
+    text: newTodo,
+    id:Date.now()
+}
+
+toDos.push(newTodoObj);
+paintToDo(newTodoObj);
 saveToDos(); 
 }
 
@@ -95,4 +116,8 @@ toDos = parseToDos
 
 기존에 있던 parseToDos 들을 toDos에 넣는 과정이다.
 {% endhint %}
+
+####  
+
+
 
