@@ -49,5 +49,15 @@ const quotes = [
 
 const quote = document.querySelector("#quote span:first-child")
 const author = document.querySelector("#quote span:last-child")
+
+
+console.log(Math.floor(Math.random()*10)) 
+// 여기서 10은 갯수를 정해놓고 한것이다 추가나 삭제가 될경우 오류발생
+console.log(Math.floor(Math.random()* quotes.length)) 
+// 이방법이 더 효율적이다.
+const todayQuote = quotes[Math.floor(Math.random()* quotes.length)]
+console.log(todayQuote)
+quote.innerText = todayQuote.quote
+author.innerText = todayQuote.author
 ```
 
