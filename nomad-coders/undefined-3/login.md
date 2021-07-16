@@ -69,7 +69,7 @@ input에 username 을 넣으면 그값을 기억해야 로그인을 구현할수
 * localStorage.getItem\("key"\): 데이터 불러오기
 
 ```markup
-    <form id="login-form">
+    <form id="login-form" class="hidden">
         <input type="text">
         <button>login</button>
     </form>
@@ -80,7 +80,8 @@ input에 username 을 넣으면 그값을 기억해야 로그인을 구현할수
 const loginInput = document.querySelector("#login-form input")
 const loginButton = document.querySelector("#login-form button")
 const greeting = document.querySelector(“#greeting”)
-const HIDDEN_CLASSNAME =“hidden” 
+const HIDDEN_CLASSNAME = “hidden”; 
+const USERNAME_KEY = "username";
 /*
 일반적인 관습인데 string만 포함된 변수는 대문자로 표기하고 
 string을 저장하고 싶을때 사용한다 안써도 무관
@@ -90,12 +91,25 @@ function onLoginSubmit(event){
     event.preventDefault() 	
     const username = loginInput.value;
     loginForm.classList.add(HIDDEN_CLASSNAME);
-    locatStorage.setItem(“username”, username)
-    greeting.innerText = `Hello ${username}`
-    greeting.classList.remove(HIDDEN_CLASSNAME)
+    locatStorage.setItem(USERNAME_KEY, username)
+    paintGreetings(username);
 } 
 
-loginForm.addEventListener("submit" onLoginSubmt)
+    function paintGreetings(username) {
+        greeting.innerText = `Hello ${username}`;
+        greeting.classList.remove(HIDDEN_CLASSNAME);
+    }
+
+const savedUsernae = localStorage.getItem(USERNAME_KEY);
+if(savedUsername ===null){
+    loginForm.classList.remove(HIDDEN_CLASSNAME);
+    loginForm.addEventListener("submit" onLoginSubmt);
+} else{
+paintGreetings(savedUsernae);     
+
+}
+
+
 
 ```
 
