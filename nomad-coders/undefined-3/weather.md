@@ -26,13 +26,13 @@ function onGeoOk(position) {
         city.innerText = data.name;
        weather.innerText = `${data.weather[0].main} / ${data.main.temp}`
     });
-}
+} // 날씨정보를 가져오는것이 성공했을시 실행되는 함 
 function onGeoError() {
     alert("Can't find you. No weather for you.");
-}
+} // 날씨정보를 가져오는것 실패했을시 실행되는 함수
 
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
-     //모든 좌표를 보내준다
+     //모든 좌표를 보내준다. 위도와 경도를 알아낼수있다.
 ```
 

@@ -58,7 +58,7 @@ function deleteToDo(event){
     const sexyFilter = (arg) => {
         return toDos.filter((todo) => todo.id !== parseInt(arg.id));
     };
-        //deleteLi.id  string 이기때문에 number 로 바꿔줘야한다
+//deleteLi.id  string 이기때문에 number 로 바꿔줘야한다
 }
 
 
@@ -102,8 +102,6 @@ if(savedToDos !== null){ //null 이 아닐때
     parseToDos.forEach(paintToDo);
 }
  
-
-
 ```
 
 {% hint style="info" %}
