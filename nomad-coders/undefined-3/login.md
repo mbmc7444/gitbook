@@ -34,11 +34,7 @@ loginInput.vaule // input 안의 값을 구할수있다.
 
 #### preventDefault\(\)  
 
-ㄹ
-
-```javascript
-브라우저의 기본 기능을 막을수있다.
-```
+브라우저의 기본 기능을 막을수 있다.
 
 ```javascript
 function onLoginSubmit(event){
