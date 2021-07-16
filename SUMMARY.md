@@ -58,6 +58,8 @@
       * [prototype](undefined/undefined-3/javascript/undefined-1/untitled.md)
       * [표준 내장 객체의 확장](undefined/undefined-3/javascript/undefined-1/undefined-3.md)
       * [Objact](undefined/undefined-3/javascript/undefined-1/objact.md)
+      * [데이터 타입](undefined/undefined-3/javascript/undefined-1/undefined-4.md)
+      * [참조](undefined/undefined-3/javascript/undefined-1/undefined-5.md)
 
 ## 노마드 코더 자바스크립트 <a id="nomad-coders"></a>
 
