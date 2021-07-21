@@ -107,4 +107,5 @@
 ## Javascript30
 
 * [01 - JavaScript Drum Kit](javascript30/01-javascript-drum-kit.md)
+* [02 - JS and CSS Clock](javascript30/02-js-and-css-clock.md)
 
