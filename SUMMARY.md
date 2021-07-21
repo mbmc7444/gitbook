@@ -109,4 +109,5 @@
 * [Javascript30](javascript30/javascript30/README.md)
   * [01 - JavaScript Drum Kit](javascript30/javascript30/01-javascript-drum-kit.md)
   * [02 - JS and CSS Clock](javascript30/javascript30/02-js-and-css-clock.md)
+  * [03 - CSS Variables](javascript30/javascript30/03-css-variables.md)
 
