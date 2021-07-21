@@ -10,8 +10,6 @@
         <div class="hand second-hand"></div>
       </div>
     </div>
-
-
 ```
 {% endtab %}
 
