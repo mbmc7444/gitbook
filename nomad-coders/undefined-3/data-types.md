@@ -7,12 +7,6 @@ const what = "Nicolas"; // String  "" 안에 넣어야한다
 const what = false; // Boolean true = 1 false = 0
 const what = 666; // Number
 const what = 55.1; // Float 소수점
-
-/* 
-여러
-줄 일경우
-사용
-*/
 ```
 
 
