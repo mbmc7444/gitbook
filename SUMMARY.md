@@ -114,5 +114,5 @@
   * [05 - Flex Panel Gallery](javascript30/javascript30/05-flex-panel-gallery.md)
   * [06 - Type Ahead](javascript30/javascript30/06-type-ahead.md)
   * [07 - Array Cardio Day 2](javascript30/javascript30/07-array-cardio-day-2.md)
-  * [Untitled](javascript30/javascript30/untitled.md)
+  * [08 - Fun with HTML5 Canvas](javascript30/javascript30/untitled.md)
 
