@@ -115,4 +115,5 @@
   * [06 - Type Ahead](javascript30/javascript30/06-type-ahead.md)
   * [07 - Array Cardio Day 2](javascript30/javascript30/07-array-cardio-day-2.md)
   * [08 - Fun with HTML5 Canvas](javascript30/javascript30/untitled.md)
+  * [09 - Dev Tools Domination](javascript30/javascript30/09-dev-tools-domination.md)
 
