@@ -51,7 +51,6 @@
   <audio data-key="74" src="sounds/snare.wav"></audio>
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
-html {  font-size: 10px;html {font-size: 10px;
 ```
 {% endtab %}
 

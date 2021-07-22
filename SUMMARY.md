@@ -111,4 +111,8 @@
   * [02 - JS and CSS Clock](javascript30/javascript30/02-js-and-css-clock.md)
   * [03 - CSS Variables](javascript30/javascript30/03-css-variables.md)
   * [04 - Array Cardio](javascript30/javascript30/04-array-cardio.md)
+  * [05 - Flex Panel Gallery](javascript30/javascript30/05-flex-panel-gallery.md)
+  * [06 - Type Ahead](javascript30/javascript30/06-type-ahead.md)
+  * [07 - Array Cardio Day 2](javascript30/javascript30/07-array-cardio-day-2.md)
+  * [Untitled](javascript30/javascript30/untitled.md)
 
