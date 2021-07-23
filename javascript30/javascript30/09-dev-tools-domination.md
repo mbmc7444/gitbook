@@ -94,7 +94,7 @@
 
 개발자 도구-&gt; 해당태그 우클릭 -&gt; Break on -&gt; attribute modifications 
 
-console.clear\(\)
+**console.clear\(\)**
 
 이전에 출력된 console이 지워진다
 
@@ -102,7 +102,7 @@ console.clear\(\)
 console.clear() 
 ```
 
-%s , %c
+**%s , %c**
 
 style을 주거나 단어를 바꿀수있다.
 
@@ -113,18 +113,22 @@ console.log('%c I am some great text' ,'font-size:50px;')
 //%c : 스타일을 주고싶을때 사용한다.
 ```
 
-warn , error, info
+**warn , error, info**
 
-ㅋㅗㄴㅅ
+ 콘솔창에 경고 ,에러 ,정보를 띄울수있다.
 
 ```javascript
 console.warn('OH NOOO');
-// 경
+// 경고
 console.error('Shit!');
-//에
+// 에러
 console.info('Crocodiles eat 3-4 people per year');
-//정
+// 정보
 ```
+
+**assert**
+
+참,거짓을 판단하여 console 창에 띄어준다
 
 ```javascript
 console.assert(p.classList.contains('ouch'), 'That is wrong!');
@@ -134,12 +138,16 @@ p의 class중에 ouch가 있는지 없는지 (참 ,거짓)
 */
 ```
 
+#### dir
+
 ```javascript
 console.log()
 // 해당엘리먼트를 확인수있다.
 console.dir()
 // 해당 엘리먼트의 속성이나 더많은 정보를 확인할수있다.
 ```
+
+**group**
 
 ```javascript
 console.group() //groupCollapsed();
@@ -149,9 +157,13 @@ console.groupEnd();
 */
 ```
 
+**count**
+
 ```javascript
 console.count // 콘솔창에서 찍힌 횟수를 확인할수 있다.
 ```
+
+#### time
 
 ```javascript
 console.time()
@@ -161,6 +173,8 @@ console.time()
   실행시간을 확인 할수있다.
  */
 ```
+
+#### table
 
 ```javascript
    console.table(dogs);// 테이블형식으로 정리할수있다.
