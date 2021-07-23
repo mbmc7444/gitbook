@@ -166,5 +166,12 @@ nav a {
 {% endtab %}
 {% endtabs %}
 
-ㅎㅐㅅㅐㅇ
+특정 구간에서 nav fixed-nav 라는 클래스를 할당해서 position : fiexed; 하는작업이다.
+
+기존에 relative로 위치해 있던 nav를 fiexd로 바꾸어 상단에 고정시키는것이다
+
+```javascript
+document.body.style.paddingTop = nav.offsetHeight + 'px';
+//fiexd를 하면서 갑자기 생겨버린 여백으로 부자연스러움을없애려하는것이다.
+```
 
