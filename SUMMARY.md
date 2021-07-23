@@ -131,4 +131,6 @@
   * [22 - Follow Along Link](javascript30/javascript30/22-follow-along-link.md)
   * [23 - Speech Synthesis](javascript30/javascript30/23-speech-synthesis.md)
   * [24 - Sticky Nav](javascript30/javascript30/24-sticky-nav.md)
+  * [25 - Event Capture, Propagation, Bubbling and Once](javascript30/javascript30/25-event-capture-propagation-bubbling-and-once.md)
+  * [26 - Stripe Follow Along Dropdown Navigation](javascript30/javascript30/26-stripe-follow-along-dropdown-navigation.md)
 
