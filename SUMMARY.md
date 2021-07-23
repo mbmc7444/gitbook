@@ -121,4 +121,8 @@
   * [12 - Key Sequence Detection](javascript30/javascript30/12-key-sequence-detection.md)
   * [13 - Slide in on Scroll](javascript30/javascript30/13-slide-in-on-scroll.md)
   * [14 - References VS Copying](javascript30/javascript30/14-references-vs-copying.md)
+  * [15 - LocalStorage](javascript30/javascript30/15-localstorage.md)
+  * [16 - Mouse Move Shadow](javascript30/javascript30/16-mouse-move-shadow.md)
+  * [17 - Sort Without Articles](javascript30/javascript30/17-sort-without-articles.md)
+  * [Untitled](javascript30/javascript30/untitled-1.md)
 
