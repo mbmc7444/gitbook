@@ -118,4 +118,5 @@
   * [09 - Dev Tools Domination](javascript30/javascript30/09-dev-tools-domination.md)
   * [10 - JS Checkbox Challenge!](javascript30/javascript30/10-js-checkbox-challenge.md)
   * [11 - Custom Video Player](javascript30/javascript30/11-custom-video-player.md)
+  * [12 - Key Sequence Detection](javascript30/javascript30/12-key-sequence-detection.md)
 
