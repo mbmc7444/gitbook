@@ -94,20 +94,28 @@
 
 개발자 도구-&gt; 해당태그 우클릭 -&gt; Break on -&gt; attribute modifications 
 
+console.clear\(\)
+
+이전에 출력된 console이 지워진다
+
 ```javascript
 console.clear() 
-//이전에 출력된 console이 지워진다
 ```
+
+%s , %c
+
+style을 주거나 단어를 바꿀수있다.
 
 ```javascript
 console.log('Hello I am a %s string!', '💩');
 // %s -> '💩'
-```
-
-```javascript
 console.log('%c I am some great text' ,'font-size:50px;')
 //%c : 스타일을 주고싶을때 사용한다.
 ```
+
+warn , error, info
+
+ㅋㅗㄴㅅ
 
 ```javascript
 console.warn('OH NOOO');
