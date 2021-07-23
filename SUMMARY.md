@@ -126,4 +126,5 @@
   * [17 - Sort Without Articles](javascript30/javascript30/17-sort-without-articles.md)
   * [18 - Adding Up Times with](javascript30/javascript30/untitled-1.md)
   * [19 - Webcam Fun](javascript30/javascript30/19-webcam-fun.md)
+  * [20 - Speech Detection](javascript30/javascript30/20-speech-detection.md)
 
