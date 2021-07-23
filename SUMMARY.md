@@ -120,4 +120,5 @@
   * [11 - Custom Video Player](javascript30/javascript30/11-custom-video-player.md)
   * [12 - Key Sequence Detection](javascript30/javascript30/12-key-sequence-detection.md)
   * [13 - Slide in on Scroll](javascript30/javascript30/13-slide-in-on-scroll.md)
+  * [14 - References VS Copying](javascript30/javascript30/14-references-vs-copying.md)
 
