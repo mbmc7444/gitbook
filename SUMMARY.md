@@ -128,4 +128,5 @@
   * [19 - Webcam Fun](javascript30/javascript30/19-webcam-fun.md)
   * [20 - Speech Detection](javascript30/javascript30/20-speech-detection.md)
   * [21 - Geolocation](javascript30/javascript30/21-geolocation.md)
+  * [22 - Follow Along Link](javascript30/javascript30/22-follow-along-link.md)
 
