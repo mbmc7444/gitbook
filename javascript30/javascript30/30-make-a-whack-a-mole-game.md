@@ -135,6 +135,8 @@ h1 {
     setTimeout(() => {
       hole.classList.remove('up');
       if (!timeUp) peep();
+      // timeUp 이 true때만 재실행 즉 성공했을때만 실행
+      // 사라지지 않으면 실행하지않고 remove
     }, time);
   }
 
@@ -147,7 +149,11 @@ h1 {
   }
 
   function bonk(e) {
-    if(!e.isTrusted) return; // cheater!
+    if(!e.isTrusted) return;
+    /*
+    javascript에서 이루어진것이아닌 우리가 클릭해서 이루어진것이므로
+    true를 반환 
+    */
     score++;
     this.parentNode.classList.remove('up');
     scoreBoard.textContent = score;
@@ -158,4 +164,12 @@ h1 {
 ```
 {% endtab %}
 {% endtabs %}
+
+#### Math.random\(\)
+
+수를 랜덤으로 0 이상 1 미만의 구간 랜덤으로 반환
+
+#### isTrusted
+
+이벤트가 사용자 행위에 의하여 발생되었으면 true이고 이벤트가 스크립트로 인해 생성 또는 수정되었거나 dispatchEvent를 통해 보내졌으면 false인 논리 값
 

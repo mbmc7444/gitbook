@@ -166,7 +166,28 @@ document.customForm.addEventListener('submit', function(e) {
   this.reset();
 });
 
+
 ```
 {% endtab %}
 {% endtabs %}
+
+**Math.round** 
+
+입력값을 반올림한 수와 가장 가까운 정수 값을 반환
+
+**setInterval**
+
+일정 시간 간격으로 주기적으로 이벤트를 발생시킬때
+
+**clearInterval**
+
+일정시간 무한 반복하고있는데 setInterval을 종료시키는 함수
+
+**parseInt**
+
+문자를 정수로 반환하는 함수
+
+
+
+
 
