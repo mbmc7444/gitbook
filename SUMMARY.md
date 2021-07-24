@@ -133,4 +133,5 @@
   * [24 - Sticky Nav](javascript30/javascript30/24-sticky-nav.md)
   * [25 - Event Capture, Propagation, Bubbling and Once](javascript30/javascript30/25-event-capture-propagation-bubbling-and-once.md)
   * [26 - Stripe Follow Along Dropdown Navigation](javascript30/javascript30/26-stripe-follow-along-dropdown-navigation.md)
+  * [27 - JavaScript Interface Challenge: Click and Drag to Scroll](javascript30/javascript30/27-javascript-interface-challenge-click-and-drag-to-scroll.md)
 
