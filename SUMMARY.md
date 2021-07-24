@@ -134,4 +134,7 @@
   * [25 - Event Capture, Propagation, Bubbling and Once](javascript30/javascript30/25-event-capture-propagation-bubbling-and-once.md)
   * [26 - Stripe Follow Along Dropdown Navigation](javascript30/javascript30/26-stripe-follow-along-dropdown-navigation.md)
   * [27 - JavaScript Interface Challenge: Click and Drag to Scroll](javascript30/javascript30/27-javascript-interface-challenge-click-and-drag-to-scroll.md)
+  * [28 - Build a Experimental Video Speed Controller UI](javascript30/javascript30/28-build-a-experimental-video-speed-controller-ui.md)
+  * [29 - Vanilla JS Countdown Timer](javascript30/javascript30/29-vanilla-js-countdown-timer.md)
+  * [30 - Make a Whack A Mole Game](javascript30/javascript30/30-make-a-whack-a-mole-game.md)
 
