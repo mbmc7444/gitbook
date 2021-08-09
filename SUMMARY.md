@@ -138,7 +138,3 @@
   * [29 - Vanilla JS Countdown Timer](javascript30/javascript30/29-vanilla-js-countdown-timer.md)
   * [30 - Make a Whack A Mole Game](javascript30/javascript30/30-make-a-whack-a-mole-game.md)
 
-## 리엑트 <a id="undefined-3"></a>
-
-* [REACT](undefined-3/react.md)
-
