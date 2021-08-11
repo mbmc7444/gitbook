@@ -148,4 +148,6 @@
   * [eslint warning](undefined-3/react/eslint-warning.md)
   * [like 버튼 생성](undefined-3/react/like.md)
   * [state 변경](undefined-3/react/state-1.md)
+  * [component](undefined-3/react/component.md)
+  * [component - modal](undefined-3/react/component-modal.md)
 
