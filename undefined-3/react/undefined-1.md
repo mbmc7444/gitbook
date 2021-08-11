@@ -102,3 +102,22 @@ export default App;
 
 또 App 자체에 map을 넣었는데 혹시 function을 만들고 그함수를 넣으면 함수만으로 list를 만들수있지 않을까 생각해봤는데 잘안됐다. 아마 이것도 component 개념으로 props가 필요하지않을까 생각된다. 추후에 수정해야겠다 
 
+```jsx
+function App (){
+
+  function 반복된UI(){
+    var 어레이 = [];
+    for (var i = 0; i < 3; i++) {
+      어레이.push(<div>안녕</div>)
+    }
+    return 어레이
+  }
+  return (
+    <div>   
+      { 반복된UI() }
+    </div>
+  )
+}
+// app 안에 함수를 넣고 { 반복된UI() }를 하면 함수로만으로 작성이되는데 map이랑 별차이가 없다. 
+```
+
