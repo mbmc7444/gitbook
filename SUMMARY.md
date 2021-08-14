@@ -152,4 +152,6 @@
   * [component - modal](undefined-3/react/component-modal.md)
   * [반복문](undefined-3/react/undefined-1.md)
   * [input](undefined-3/react/input.md)
+  * [input 심화](undefined-3/react/input-1.md)
+  * [예전 코드](undefined-3/react/undefined-3-1.md)
 
